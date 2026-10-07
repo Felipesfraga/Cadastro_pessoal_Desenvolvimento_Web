@@ -3,7 +3,7 @@
 Projeto desenvolvido em aula na Universidade Cruzeiro do Sul para praticar HTML, CSS e JavaScript na criação de um formulário de cadastro responsivo e interativo.
 
 ## 🔗 Demonstração
-[Link da página online, se você ativar o GitHub Pages]
+[[Link da página online](https://felipesfraga.github.io/Cadastro_pessoal_Desenvolvimento_Web/)]
 
 ## 🚀 Funcionalidades
 - Formulário de cadastro pessoal com campos como nome, e-mail e outros dados
@@ -22,7 +22,8 @@ Projeto desenvolvido em aula na Universidade Cruzeiro do Sul para praticar HTML,
 cadastro-pessoal/
 ├── index.html
 ├── style.css
-└── script.js
+├── script.js
+└── minhafoto.jpeg
 ```
 
 ## ▶️ Como executar
@@ -36,4 +37,4 @@ cadastro-pessoal/
 - Melhorar a experiência do usuário com feedback visual
 
 ## 👤 Autor
-[FELIPE DOS SANTOS FRAGA] · [[Link do seu LinkedIn](https://www.linkedin.com/in/felipesfraga/)]
+[FELIPE DOS SANTOS FRAGA] · [[Link do meu Linkedin](https://www.linkedin.com/in/felipesfraga/)]
