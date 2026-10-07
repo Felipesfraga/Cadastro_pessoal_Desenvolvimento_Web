@@ -1,71 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-<head>
+  <head>
 
     <meta charset="UTF-8">
+    <meta name="viewport" content = "width = device-width, initial-scale= 1.0">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Meu Perfil</title>
+    <title>Cadastro Pessoal</title>
 
     <link rel="stylesheet" href="style.css">
 
-</head>
+  </head>
 
-<body>
+  <body>
 
     <div class="container">
-        <h1>Meu Perfil</h1>
 
-        <!-- FOTO DO ALUNO -->
+    <h1>Cadastro Pessoal</h1>
 
-        <img src="minhafoto.jpeg" alt="Minha fotografia" class="foto">
+            <!-- FOTO-->
+    <div class="area-foto"></div>
 
-        <h2> Cadastro pessoal</h2>
+            <!-- FORMULÁRIO -->
+    <form id="formulario"></form>
 
-        <form id="formulario">
-            
-            <label  for="nome">Nome: </label>
-            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+    <h2>Cadastros realizados</h2>
 
-            <label for="endereco">Endereço: </label>
-            <input type="text" id="endereco" name="endereco" placeholder="Digite seu Endereço" required>
+    <div id="listaCadastros"></div>
 
-            <label for="telefone">Telefone: </label>
-            <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999" required>
+    <div class="area-foto">
+    <img id="previewFoto" src"" alt="Foto do aluno" class="Foto"></div>
 
-            <label for="email">E-mail: </label>
-            <input type="email" id="email" name="email" placeholder="seuemail@email.com" required>
+    <label for="foto"> Escolha sua foto: </label>
+    <input type="file" id="foto" accept="image/">
 
-            <label for="nacionalidade">Nacionalidade: </label>
-            <input type="text" id="nacionalidade" name="nacionalidade" placeholder="Ex.: Brasileira" required>
-            
-            <label for="naturalidade">Naturalidade: </label>
-            <input type="text" id="naturalidade" name="naturalidade" placeholder="Ex.: São paulo - SP" required>
+    <label for="nome">Nome: </label>
+    <input type="text" id="nome" required>
 
-            <button type="submit">
+    <label for="endereco">Endereço: </label>
+    <input type="text" id="endereco" required>
 
-                Enviar Cadastro
+    <label for="telefone">Telefone: </label>
+    <input type="tel" id="telefone" placeholder="(11) 99999-9999" required>
 
-            </button>
+    <label for="email">Email: </label>
+    <input type="email" id="email" required>
 
-            <button type="button" onclick="limparFormulario()">
+    <label for="nacionalidade">Nacionalidade: </label>
+    <input type="text" id="nacionalidade" required>
 
-                Limpar
+    <label for="naturalidade"> Naturalidade: </label>
+    <input type="text" id="naturalidade" placeholder="Cidade Estado" required>
 
-            </button>
+    <button type="submit">CADASTRAR</button>
+    <button type="button" onclick="limparFormulario()">LIMPAR</button>
 
-            <p id="mensagem"></p>
+  </body>
 
-                            <!-- CSS -->
-            <link rel="stylesheet" href="style.css">
-
-                            <!-- JavaScript -->
-            <script src="script.js"></script>
-
-        </form>
-      </div>
-   </body> 
-
-</html> 
+</html>
