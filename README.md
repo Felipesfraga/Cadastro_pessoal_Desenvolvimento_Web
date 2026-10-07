@@ -19,7 +19,6 @@ Projeto desenvolvido em aula na Universidade Cruzeiro do Sul para praticar HTML,
 
 ## 📁 Estrutura do projeto
 ```
-cadastro-pessoal/
 ├── index.html
 ├── style.css
 ├── script.js
